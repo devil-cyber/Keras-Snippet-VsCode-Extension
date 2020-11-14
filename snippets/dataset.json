@@ -1,0 +1,48 @@
+{
+    "Keras-2.2.5 MNIST Dataset":{
+        "prefix":"!mnist",
+        "body":[
+            "# MNIST digits classification dataset",
+            "# This is a dataset of 60,000 28x28 grayscale images of the 10 digits, along with a test set of 10,000",
+            "# Find more at http://yann.lecun.com/exdb/mnist/",
+            "# path: path where to cache the dataset locally (relative to ~/.keras/datasets).",
+            "# Loads the MNIST dataset.",
+            "tf.keras.datasets.mnist.load_data(path='mnist.npz')",
+            "# It return Tuple of Numpy arrays: (x_train, y_train), (x_test, y_test)."
+
+        ]
+    },
+    "Keras-2.2.5 CIFAR10 Dataset":{
+        "prefix":"!cifar10",
+        "body":[
+            "# CIFAR10 small images classification dataset",
+            "# This is a dataset of 50,000 32x32 color training images and 10,000 test images, labeled over 10 categories.",
+            "# Find more at https://www.cs.toronto.edu/~kriz/cifar.html ",
+            "# load_data function",
+            "tf.keras.datasets.cifar10.load_data()",
+            "# It return Tuple of Numpy arrays: (x_train, y_train), (x_test, y_test)."
+        ]
+    },
+    "Keras-2.2.5 IMDB Dataset":{
+        "prefix":"!imdb",
+        "body":[
+            "# IMDB movie review sentiment classification dataset",
+            "# This is a dataset of 25,000 movies reviews from IMDB, labeled by sentiment (positive/negative).",
+            "# Find more at https://keras.io/api/datasets/imdb/ ",
+            "# path: path where to cache the dataset locally (relative to ~/.keras/datasets).",
+            "# data_load function",
+            "tf.keras.datasets.imdb.load_data(path='imdb.npz')"
+        ]
+    },
+    "Keras-2.2.5 Boston House Price Dataset":{
+        "prefix":"!bostan",
+        "body":[
+            "# Boston Housing price regression dataset",
+            "# Find more at https://keras.io/api/datasets/boston_housing/",
+            "# path: path where to cache the dataset locally (relative to ~/.keras/datasets).",
+            "# load_data function ",
+            "tf.keras.datasets.boston_housing.load_data(path='boston_housing.npz', test_split=0.2, seed=113)",
+            "# It return Tuple of Numpy arrays: (x_train, y_train), (x_test, y_test)."
+        ]
+    }
+}

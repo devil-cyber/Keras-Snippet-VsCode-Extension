@@ -15,6 +15,10 @@
             {
                 "language": "python",
                 "path": "./snippets/snippets.code-snippets.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/dataset.json"
             }
         ]
     }
