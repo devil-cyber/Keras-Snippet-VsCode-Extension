@@ -24,6 +24,10 @@
                 "language": "python",
                 "path": "./snippets/activation.json"
             },
+            {
+                "language": "python",
+                "path": "./snippets/optmizer.json"
+            },
         ]
     }
 }

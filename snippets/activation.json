@@ -1,0 +1,39 @@
+{
+    "Keras-2.2.5 Relu Activation":{
+        "prefix":"!relu",
+        "body":[
+             "opt='relu'",
+             "# model.add(layers.Dense(64, activation=opt))"
+        ]
+    },
+    "Keras-2.2.5 Softmax Activation":{
+        "prefix":"!softmax",
+        "body":[
+            "opt='softmax'",
+            "# model.add(layers.Dense(64, activation=opt))"
+        ]
+    },
+    "Keras-2.2.5 Sigmoid Activation":{
+        "prefix":"!sigmoid",
+        "body":[
+            "opt='sigmoid'",
+            "# model.add(layers.Dense(64, activation=opt))"
+        ]
+    },
+    "Keras-2.2.5 tanh Activation":{
+        "prefix":"!tanh",
+        "body":[
+            "opt='tanh'",
+            "# model.add(layers.Dense(64, activation=opt))"
+        ]
+    },
+    "Keras-2.2.5 Softsign Activation":{
+        "prefix":"!softsign",
+        "body":[
+            "opt='softsign'",
+            "# model.add(layers.Dense(64, activation=opt))"
+        ]
+    }
+    
+
+}

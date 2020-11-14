@@ -1,0 +1,37 @@
+{
+    "Keras-2.2.5 Adam Optimizer ":{
+        "prefix":"!adam",
+        "body":[
+            "opt = keras.optimizers.Adam(learning_rate=0.01)",
+            "# model.compile(loss='categorical_crossentropy', optimizer=opt)"
+        ]
+    },
+    "Keras-2.2.5 SGD Optimizer ":{
+        "prefix":"!sgd",
+        "body":[
+            "opt = keras.optimizers.SGD(learning_rate=0.01)",
+            "# model.compile(loss='categorical_crossentropy', optimizer=opt)"
+        ]
+    },
+    "Keras-2.2.5 RMSprop Optimizer ":{
+        "prefix":"!rms",
+        "body":[
+            "opt = keras.optimizers.RMSprop(learning_rate=0.01)",
+            "# model.compile(loss='categorical_crossentropy', optimizer=opt)"
+        ]
+    },
+    "Keras-2.2.5 Adadelta Optimizer ":{
+        "prefix":"!adadelta",
+        "body":[
+            "opt = keras.optimizers.Adadelta(learning_rate=0.01)",
+            "# model.compile(loss='categorical_crossentropy', optimizer=opt)"
+        ]
+    },
+    "Keras-2.2.5 Adagrad Optimizer ":{
+        "prefix":"!adagrad",
+        "body":[
+            "opt = keras.optimizers.Adagrad(learning_rate=0.01)",
+            "# model.compile(loss='categorical_crossentropy', optimizer=opt)"
+        ]
+    }
+}
