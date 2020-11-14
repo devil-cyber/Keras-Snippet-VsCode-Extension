@@ -19,7 +19,11 @@
             {
                 "language": "python",
                 "path": "./snippets/dataset.json"
-            }
+            },
+            {
+                "language": "python",
+                "path": "./snippets/activation.json"
+            },
         ]
     }
 }
