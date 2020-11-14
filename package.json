@@ -32,6 +32,10 @@
                 "language": "python",
                 "path": "./snippets/trans_learning.json"
             },
+            {
+                "language": "python",
+                "path": "./snippets/mnist.json"
+            },
         ]
     }
 }
