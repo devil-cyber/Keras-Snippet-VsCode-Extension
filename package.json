@@ -28,6 +28,10 @@
                 "language": "python",
                 "path": "./snippets/optmizer.json"
             },
+            {
+                "language": "python",
+                "path": "./snippets/trans_learning.json"
+            },
         ]
     }
 }
