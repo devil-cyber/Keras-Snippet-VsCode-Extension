@@ -1,4 +1,5 @@
 # Keras Snippet
+### Download Extension [Click to Download](https://marketplace.visualstudio.com/items?itemName=devil-cyber.keras-snippet&ssr=false#overview) or search in vscode extension bar `keras-snippet`
 ![](gif.gif)
 > This is a keras code snippet extension that provide boilerplate for different CNN algorithm and the as well as for
 > various element involved at the time of writing deep learning code from scratch.
