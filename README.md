@@ -1,65 +1,30 @@
-# keras-snippet README
-
-This is the README for your extension "keras-snippet". After writing up a brief description, we recommend including the following sections.
+# Keras Snippet
+![](gif.gif)
+> This is a keras code snippet extension that provide boilerplate for different CNN algorithm and the as well as for
+> various element involved at the time of writing deep learning code from scratch.
+>This snippet reduces the coding time
 
 ## Features
+ 
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+| Prefix          |  Description      |
+| --------------- | ---------------- |
+| `!impt`         | `This will import important different Library of CNN`|
+| `!cnn`          | `This prefix will import a CNN layer boilerplate that you can change according to your need `|
+| `!cnn-pred`     | `This prefix will create a model prediction code boilerplate after training of model` |
+| `!inception-v3` | `This prefix will create a IceptionV3 transfer learning model boilerplate`  |
+| `!vgg16`        | `This prefix will create a VGG16 transfer learning model boilerplate`    |
+| `!vgg19`        | `This prefix will create a VGG19 transfer learning model boilerplate`    |
+| `!resnet-50`    | `This prefix will create a ResNet50 transfer learning model boilerplate`                   |
+| `!xception`     | `This prefix will create a ExceptionNet transfer learning model boilerplate`   |
+| `!mnist-clas`   | `This prefix will create a MNIST digit classifier from scratch`  |
+| `!adam`, `!adadelta`, `!sgd`, `!rms`, `!adagrad`| `These prefix will create a code snippet for different optimizer`  |
+| `!relu`, `!softmax`, `!tanh`, `!softsign`, `!sigmoid` |`These prefix will create a code snippet for different activation functions` |
+| `!mnist`, `!cifar10`, `!imdb`, `!boston` | `These prefix will create a code snippet for how to load different datasets` |
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
+ 
 ## Requirements
+- `Tensorflow` and `Keras` should be installed
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
