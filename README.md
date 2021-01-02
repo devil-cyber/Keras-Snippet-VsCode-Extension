@@ -1,4 +1,9 @@
 # Keras Snippet
+[![VSMarketplace](https://vsmarketplacebadge.apphb.com/version-short/devil-cyber.keras-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=devil-cyber.keras-snippet)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/devil-cyber.keras-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=devil-cyber.keras-snippet)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/devil-cyber.keras-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=devil-cyber.keras-snippet)
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE.md)
+[![Trending](https://vsmarketplacebadge.apphb.com/trending-monthly/devil-cyber.keras-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=devil-cyber.keras-snippet)
 ### Download Extension [Click to Download](https://marketplace.visualstudio.com/items?itemName=devil-cyber.keras-snippet&ssr=false#overview) or search in vscode extension bar `keras-snippet`
 ![](gif.gif)
 > This is a keras code snippet extension that provide boilerplate for different CNN algorithm and the as well as for
