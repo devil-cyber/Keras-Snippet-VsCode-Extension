@@ -2,7 +2,7 @@
     "name": "keras-snippet",
     "displayName": "keras-snippet",
     "description": "This is a keras code snippet for deep-learning. It also contains code snippet for transfer-learning, as well as different deep-learning algorithm eg. LeNet,InceptionNet,VGG16 etc.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "Manikant",
     "engines": {
         "vscode": "^1.51.0"
@@ -11,8 +11,7 @@
         "Snippets"
     ],
     "contributes": {
-        "snippets": [
-            {
+        "snippets": [{
                 "language": "python",
                 "path": "./snippets/snippets.code-snippets.json"
             },
@@ -35,7 +34,7 @@
             {
                 "language": "python",
                 "path": "./snippets/mnist.json"
-            },
+            }
         ]
     }
 }
