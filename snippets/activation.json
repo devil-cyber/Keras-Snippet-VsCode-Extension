@@ -1,39 +1,39 @@
 {
-    "Keras-2.2.5 Relu Activation":{
-        "prefix":"!relu",
-        "body":[
-             "opt='relu'",
-             "# model.add(layers.Dense(64, activation=opt))"
+    "Keras-2.2.5 Relu Activation": {
+        "prefix": "!keras:relu",
+        "body": [
+            "opt='relu'",
+            "# model.add(layers.Dense(64, activation=opt))"
         ]
     },
-    "Keras-2.2.5 Softmax Activation":{
-        "prefix":"!softmax",
-        "body":[
+    "Keras-2.2.5 Softmax Activation": {
+        "prefix": "!keras:softmax",
+        "body": [
             "opt='softmax'",
             "# model.add(layers.Dense(64, activation=opt))"
         ]
     },
-    "Keras-2.2.5 Sigmoid Activation":{
-        "prefix":"!sigmoid",
-        "body":[
+    "Keras-2.2.5 Sigmoid Activation": {
+        "prefix": "!keras:sigmoid",
+        "body": [
             "opt='sigmoid'",
             "# model.add(layers.Dense(64, activation=opt))"
         ]
     },
-    "Keras-2.2.5 tanh Activation":{
-        "prefix":"!tanh",
-        "body":[
+    "Keras-2.2.5 tanh Activation": {
+        "prefix": "!keras:tanh",
+        "body": [
             "opt='tanh'",
             "# model.add(layers.Dense(64, activation=opt))"
         ]
     },
-    "Keras-2.2.5 Softsign Activation":{
-        "prefix":"!softsign",
-        "body":[
+    "Keras-2.2.5 Softsign Activation": {
+        "prefix": "!keras:softsign",
+        "body": [
             "opt='softsign'",
             "# model.add(layers.Dense(64, activation=opt))"
         ]
     }
-    
+
 
 }
