@@ -1,6 +1,6 @@
 {
-   "Keras-2.2.5 Import Template":{
-        "prefix": "!impt",
+    "Keras-2.2.5 Import Template": {
+        "prefix": "!keras:import",
         "body": [
             "import tensorflow as tf",
             "from tensorflow import keras",
@@ -13,9 +13,9 @@
         ],
         "description": "Imports keras Important Library  for CNN"
     },
-    "Keras-2.2.5 Simple CNN Template":{
-        "prefix":"!cnn",
-        "body":[
+    "Keras-2.2.5 Simple CNN Template": {
+        "prefix": "!keras:cnn",
+        "body": [
             "# This is a simple CNN template for Image Classification having labeled data in local storage",
             "# Fell free to update conv layer or the data according to your need",
             "import tensorflow as tf",
@@ -59,11 +59,11 @@
             "classifier.save('model.h5')",
             "print('Saved model to disk')"
         ],
-        "description":"Creates a simple CNN snippet"
+        "description": "Creates a simple CNN snippet"
     },
-    "Keras-2.2.5 Prediction Template":{
-        "prefix":"!cnn-pred",
-        "body":[
+    "Keras-2.2.5 Prediction Template": {
+        "prefix": "!keras:cnn-pred",
+        "body": [
             "# The prediction step provide correct image path",
             "import numpy as np",
             "from keras.preprocessing import image",
@@ -77,5 +77,3 @@
         ]
     }
 }
-
- 
