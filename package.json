@@ -4,6 +4,7 @@
     "description": "This is a keras code snippet for deep-learning. It also contains code snippet for transfer-learning, as well as different deep-learning algorithm eg. LeNet,InceptionNet,VGG16 etc.",
     "version": "1.1.0",
     "publisher": "Manikant",
+    "repository": "https://github.com/devil-cyber/Keras-Snippet-VsCode-Extension",
     "engines": {
         "vscode": "^1.51.0"
     },
